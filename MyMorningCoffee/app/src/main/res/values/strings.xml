@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Morning Coffee</string>
+    <string name="Topic">My Morning Coffee</string>
+    <string name="topic_name">Coffee</string>
+    <string name="Image">Coffee Image</string>
+    <string name="Coffee_ko_barema">Coffee, a daily elixir, transcends mere beverage status. From equatorial plantations to skilled hands, it undergoes a transformative journey. Harvested, roasted, ground – it emerges as a potent potion. Roasters, like alchemists, master the heat, shaping the beans into a symphony of flavors.\n\nGround to perfection, the aromatic powder awaits its brewing destiny. From espresso machines\' swift extraction to the patient dance of pour-over methods, water and grounds unite in alchemical communion. Aromas waft, a herald of the elixir\'s imminent arrival.\n\nThe first sip, a suspended moment, delivers a symphony of taste – bitter, sweet, acidic, a sensory journey that captivates. Coffee, beyond consumption, is a catalyst for connections. Cafes witness conversations, meetings, and contemplations over steaming cups, fostering camaraderie.\n\nAs the last drops linger, a sense of satisfaction permeates. Caffeine emboldens the weary for daily challenges, yet coffee remains a source of solace – a companion in solitude, a pause button in life\'s frenetic rhythm. .</string>
+    <string name="question_sodne_thau">K bihana Coffee chaincha?</string>
+    <string name="hint_dine_thau">K bihana coffee chaincha?</string>
+    <string name="bhayo_button">Bhayo?</string>
+    <string name="answer_aaune_thau" />
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/back_button"
+            android:src="@drawable/back_icon"
+            tools:ignore="DuplicateSpeakableTextCheck"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/now_playing"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:contentDescription="@string/now_playing"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/favourites_button"
+            android:src="@drawable/favourite_empty"
+            app:tint="@color/red"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/music_player_icon"
+        app:shapeAppearanceOverlay="@style/curved_square"
+        app:strokeWidth="5dp"
+        app:strokeColor="@color/red"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/song_name"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:icon="@drawable/back_icon"
+            android:contentDescription="@string/back_button"
+            app:iconSize="30dp"/>
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:icon="@drawable/pause_icon"
+            android:contentDescription="@string/pause_button"
+            app:iconSize="40dp"
+            android:layout_margin="25dp"
+            app:shapeAppearanceOverlay="@style/curved_square"
+            app:iconTint="@color/red"/>
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:contentDescription="@string/next_button"
+            app:icon="@drawable/next"
+            app:iconSize="18dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:text="@string/start_tv"
+        android:layout_margin="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:text="@string/end_tv"
+        android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:src="@drawable/repeat_icon"
+            android:contentDescription="@string/repeat_button"
+            android:layout_weight="1"
+            app:tint = "@color/red"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:src="@drawable/equalizer_icon"
+            android:contentDescription="@string/equalizer_button"
+            app:tint = "@color/red"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:src="@drawable/timer_icon"
+            android:contentDescription="@string/timer_button"
+            android:layout_weight="1"
+            app:tint = "@color/red"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:src="@drawable/repeat_icon"
+            app:tint="@color/red"
+            android:contentDescription="@string/share_button"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

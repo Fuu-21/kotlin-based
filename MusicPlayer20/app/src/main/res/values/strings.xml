@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Music Player 2.0</string>
+    <string name="shuffle_button">Shuffle</string>
+    <string name="favourites_button">Favourites</string>
+    <string name="playlist_button">Playlist</string>
+    <string name="total_songs">Total Songs</string>
+    <string name="now_playing">Now playing</string>
+    <string name="song_name">Song Name</string>
+    <string name="back_button">Back</string>
+    <string name="next_button">Next</string>
+    <string name="start_tv">00:00</string>
+    <string name="end_tv">Loading</string>
+    <string name="repeat_button">Repeat</string>
+    <string name="equalizer_button">Equalizer</string>
+    <string name="timer_button">Timer</string>
+    <string name="share_button">Share</string>
+    <string name="pause_button">Pause</string>
+</resources>

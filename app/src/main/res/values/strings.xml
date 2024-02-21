@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">About ME</string>
+    <string name="name">Sunil</string>
+    <string name="avatar">Avatarrr\n</string>
+    <string name="yellow_star">yellowStar\n</string>
+    <string name="bio">A star is a luminous celestial body composed of hot gases,\n primarily hydrogen and helium, undergoing nuclear fusion that generates light and heat.\n Stars are scattered throughout \n the vast expanse of the universe, serving as the fundamental\n building blocks of galaxies and\n captivating observers with their brilliance and\n cosmic significance.A star is a luminous celestial \nbody composed of hot gases, primarily hydrogen and helium,\n undergoing nuclear fusion that generates light and heat. Stars are scattered throughout the vast expanse of the universe, serving as the fundamental building blocks of galaxies and captivating \nobservers with their brilliance and cosmic significance..</string>
+    <string name="what_is_your_nick_name">what is your nick name?</string>
+    <string name="Nick_name">What is your nick name?</string>
+    <string name="done">done\n</string>
+</resources>

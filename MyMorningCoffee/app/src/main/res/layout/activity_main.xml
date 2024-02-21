@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+    
+    <data>
+        <variable
+            name="myCoffee"
+            type="com.example.mymorningcoffee.MyCoffee" />
+
+    </data>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Topic"
+        style="@style/coffee_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@={myCoffee.drink}"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/question_sodne_thau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/bangers"
+        android:hint="@string/hint_dine_thau"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingBottom="@dimen/small_padding"
+        android:textColorHint="#A1887F"
+        android:textSize="@dimen/text_size"
+        android:visibility="visible"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/bhayo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bhayo_button"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/bangers"/>
+
+    <ImageView
+        android:id="@+id/photu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Image"
+        android:textAlignment="center"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={myCoffee.drinkType}"
+        android:fontFamily="@font/bangers"
+        android:textSize="@dimen/text_size"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/photu_muni_ko_textBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bangers"
+            android:paddingLeft="@dimen/small_padding"
+            android:paddingTop="@dimen/small_padding"
+            android:paddingEnd="@dimen/small_padding"
+            android:paddingRight="@dimen/small_padding"
+            android:text="@string/Coffee_ko_barema"
+            android:textSize="24sp"
+            tools:ignore="VisualLintBounds,VisualLintLongText" />
+
+    </ScrollView>
+
+
+</LinearLayout>
